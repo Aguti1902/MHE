@@ -80,6 +80,18 @@ function Contact() {
               </div>
             </div>
             
+            <div className="info-item">
+              <div className="info-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <polyline points="12 6 12 12 16 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Horario</h4>
+                <p>Lunes a Viernes<br/>8:00 - 18:00</p>
+              </div>
+            </div>
           </div>
         </div>
         
