@@ -93,13 +93,13 @@ function Benefits() {
       
       <div className="benefits-cta">
         <div className="cta-content">
-          <h3>¿Listo para transformar su logística?</h3>
-          <p>Solicite una consultoría gratuita y descubra cómo podemos optimizar sus procesos</p>
+          <h3>¿Listo para transformar la industria?</h3>
+          <p>Contáctenos y descubra cómo podemos optimizar sus procesos</p>
           <button 
             className="button-primary"
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
           >
-            Solicitar Consultoría Gratuita
+            Solicitar servicio
           </button>
         </div>
         </div>
