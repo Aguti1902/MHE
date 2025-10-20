@@ -1,0 +1,148 @@
+.benefits {
+  background-color: var(--gray-light);
+  width: 100%;
+  position: relative;
+}
+
+.benefits::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/young-male-worker-of-warehouse-carrying-boxes-2025-03-15-05-44-51-utc.JPG');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.04;
+  z-index: 0;
+}
+
+.benefits .section-container {
+  position: relative;
+  z-index: 1;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease-out backwards;
+  border: 2px solid transparent;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(30, 64, 175, 0.15);
+  border-color: var(--primary-orange-light);
+}
+
+.benefit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.benefit-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--primary-orange), var(--primary-orange-light));
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: rotate(5deg) scale(1.05);
+}
+
+.benefit-stat {
+  background: var(--gray-light);
+  color: var(--primary-orange);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.benefit-title {
+  font-size: 1.4rem;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.benefit-description {
+  color: var(--secondary-gray);
+  line-height: 1.7;
+  font-size: 0.98rem;
+}
+
+.benefits-cta {
+  margin-top: 60px;
+  background: linear-gradient(135deg, var(--primary-orange), var(--primary-orange-light));
+  border-radius: 16px;
+  padding: 50px 40px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 15px 40px rgba(30, 64, 175, 0.25);
+}
+
+.cta-content h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.cta-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.benefits-cta .button-primary {
+  background-color: white;
+  color: var(--primary-orange);
+  font-weight: 700;
+}
+
+.benefits-cta .button-primary:hover {
+  background-color: var(--gray-light);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .benefit-card {
+    padding: 25px;
+  }
+  
+  .benefits-cta {
+    padding: 40px 25px;
+  }
+  
+  .cta-content h3 {
+    font-size: 1.6rem;
+  }
+  
+  .cta-content p {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,161 @@
+═══════════════════════════════════════════════════════════════
+   NOTAS IMPORTANTES - Materials Handling Europe
+═══════════════════════════════════════════════════════════════
+
+📌 ANTES DE SUBIR AL SERVIDOR - LISTA DE VERIFICACIÓN:
+
+1. ⚠️ ACTUALIZAR TELÉFONO REAL
+   Archivos a modificar:
+   - src/components/Contact.jsx (línea ~52)
+   - src/components/Footer.jsx (línea ~69)
+   
+   Buscar: "+34 XXX XXX XXX"
+   Reemplazar por el teléfono real de contacto
+
+2. ⚠️ CONFIGURAR FORMULARIO DE CONTACTO
+   El formulario actualmente simula el envío.
+   
+   Opciones recomendadas:
+   
+   A) FORMSPREE (Más fácil - Recomendado)
+      - Crear cuenta en: https://formspree.io
+      - Crear nuevo formulario
+      - Copiar el ID que te dan
+      - Ver instrucciones detalladas en: INSTRUCCIONES_INSTALACION.md
+   
+   B) EMAILJS
+      - Crear cuenta en: https://www.emailjs.com
+      - Seguir su guía de configuración
+   
+   Ver código de ejemplo en INSTRUCCIONES_INSTALACION.md
+
+3. ✅ INSTALAR DEPENDENCIAS
+   Abrir terminal en la carpeta del proyecto:
+   
+   npm install
+
+4. ✅ PROBAR EN LOCAL
+   
+   npm run dev
+   
+   Abrir: http://localhost:5173
+   Verificar que todo funciona correctamente
+
+5. ✅ GENERAR BUILD PARA PRODUCCIÓN
+   
+   npm run build
+   
+   Se creará una carpeta "dist/" con los archivos optimizados
+
+6. ⚠️ COPIAR .htaccess (SOLO SI USAS APACHE)
+   
+   IMPORTANTE: El archivo .htaccess está en la raíz del proyecto.
+   
+   Después de ejecutar "npm run build":
+   - Copia el archivo .htaccess
+   - Pégalo DENTRO de la carpeta dist/
+   
+   Solo necesario si tu servidor usa Apache.
+   NO es necesario para Netlify, Vercel u otros servicios modernos.
+
+7. ✅ SUBIR AL SERVIDOR
+   
+   Opción A - Netlify/Vercel (Recomendado):
+   - Arrastra la carpeta dist/ al servicio
+   - HTTPS automático incluido
+   
+   Opción B - Servidor tradicional (FTP):
+   - Sube TODO el contenido de dist/ (no la carpeta, el contenido)
+   - Incluye el .htaccess si usas Apache
+
+═══════════════════════════════════════════════════════════════
+
+📁 ESTRUCTURA DE ARCHIVOS AL SUBIR:
+
+En tu servidor debe quedar así:
+
+public_html/  (o carpeta raíz de tu dominio)
+├── index.html
+├── .htaccess (solo Apache)
+├── favicon.svg
+├── robots.txt
+└── assets/
+    ├── index-[hash].js
+    ├── index-[hash].css
+    └── ...
+
+═══════════════════════════════════════════════════════════════
+
+🔑 CREDENCIALES Y ACCESOS A CONFIGURAR:
+
+□ Dominio: ___________________________________
+□ Hosting: ___________________________________
+□ Acceso FTP/cPanel: _________________________
+□ Email formulario (Formspree): ______________
+□ Google Analytics (opcional): _______________
+
+═══════════════════════════════════════════════════════════════
+
+✅ DESPUÉS DE SUBIR AL SERVIDOR:
+
+1. Verificar que la web carga correctamente
+2. Probar el formulario de contacto
+3. Verificar responsive en móvil
+4. Comprobar todas las secciones
+5. Verificar que el favicon aparece
+6. Probar navegación entre secciones
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOCUMENTACIÓN DISPONIBLE:
+
+1. RESUMEN_PROYECTO.md
+   → Resumen completo del proyecto y características
+
+2. INSTRUCCIONES_INSTALACION.md
+   → Guía paso a paso para instalación y despliegue
+
+3. README.md
+   → Documentación técnica completa
+
+═══════════════════════════════════════════════════════════════
+
+💡 PROBLEMAS COMUNES Y SOLUCIONES:
+
+Problema: La web no se ve bien en el servidor
+Solución: Asegúrate de subir TODO el contenido de dist/, 
+          incluyendo la carpeta assets/
+
+Problema: Error 404 al recargar la página
+Solución: Asegúrate de que el .htaccess esté en dist/
+          (solo para servidores Apache)
+
+Problema: El formulario no envía emails
+Solución: Debes configurar Formspree o EmailJS primero
+          (ver INSTRUCCIONES_INSTALACION.md)
+
+Problema: Cambios no se reflejan
+Solución: Ejecuta "npm run build" de nuevo y sube 
+          los nuevos archivos
+
+═══════════════════════════════════════════════════════════════
+
+📞 DATOS DE CONTACTO EN LA WEB:
+
+Empresa: MATERIALS HANDLING EUROPE, S.L.
+CIF: B65531022
+Dirección: C/ Riera, 24 – 08830 Sant Boi de Llobregat
+Email: info@mhe-europe.com
+Teléfono: ⚠️ PENDIENTE ACTUALIZAR
+
+═══════════════════════════════════════════════════════════════
+
+✨ El proyecto está COMPLETO y listo para usar.
+
+Solo falta:
+1. Actualizar el teléfono real
+2. Configurar el envío del formulario
+3. ¡Subir al servidor!
+
+═══════════════════════════════════════════════════════════════
+
