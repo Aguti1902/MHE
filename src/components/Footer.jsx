@@ -23,11 +23,6 @@ function Footer() {
             Soluciones integrales de manutención y manejo de materiales 
             para la industria europea.
           </p>
-          <div className="footer-certifications">
-            <span className="cert-badge">ISO 9001</span>
-            <span className="cert-badge">CE</span>
-            <span className="cert-badge">EN 15635</span>
-          </div>
         </div>
         
         <div className="footer-section">
