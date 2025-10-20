@@ -56,9 +56,10 @@ function About() {
             </div>
             <h4>Nuestra Misión</h4>
             <p>
-              Proporcionar soluciones eficientes, innovadoras y personalizadas que permitan 
-              a nuestros clientes optimizar sus procesos de almacenamiento, transporte y 
-              manipulación de materiales, aumentando su productividad y rentabilidad.
+              En MHE nos especializamos en la manipulación de productos industriales y en la 
+              optimización de procesos. Proporcionamos soluciones eficientes y personalizadas 
+              que permiten a nuestros clientes mejorar sus operaciones, aumentando su 
+              productividad y competitividad en el sector industrial europeo.
             </p>
           </div>
           <div className="mission-card">
@@ -71,9 +72,11 @@ function About() {
             </div>
             <h4>Nuestra Visión</h4>
             <p>
-              Ser el partner estratégico líder en Europa para soluciones de manutención, 
-              reconocidos por nuestra innovación tecnológica, excelencia operativa y 
-              compromiso con el éxito de nuestros clientes.
+              Nuestro objetivo es mejorar la eficiencia y reducir tiempos para nuestros 
+              clientes, ofreciendo soluciones innovadoras y seguras. Trabajamos para ser 
+              reconocidos como el partner de referencia en manipulación de productos 
+              industriales, destacando por nuestro compromiso con la excelencia y el éxito 
+              de cada proyecto.
             </p>
           </div>
         </div>
