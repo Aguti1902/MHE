@@ -15,64 +15,6 @@ function About() {
         </div>
       </div>
 
-      {/* Estadísticas destacadas */}
-      <div className="about-stats-banner">
-        <div className="section-container">
-          <div className="stats-row">
-            <div className="stat-big">
-              <div className="stat-icon">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <circle cx="12" cy="12" r="10" strokeWidth="2"/>
-                  <polyline points="12 6 12 12 16 14" strokeWidth="2"/>
-                </svg>
-              </div>
-              <div className="stat-content">
-                <div className="stat-big-number">+10</div>
-                <div className="stat-big-label">Años de Experiencia</div>
-              </div>
-            </div>
-            <div className="stat-big">
-              <div className="stat-icon">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" strokeWidth="2"/>
-                  <polyline points="9 22 9 12 15 12 15 22" strokeWidth="2"/>
-                </svg>
-              </div>
-              <div className="stat-content">
-                <div className="stat-big-number">+5</div>
-                <div className="stat-big-label">Proyectos Implementados</div>
-              </div>
-            </div>
-            <div className="stat-big">
-              <div className="stat-icon">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" strokeWidth="2"/>
-                  <circle cx="9" cy="7" r="4" strokeWidth="2"/>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" strokeWidth="2"/>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" strokeWidth="2"/>
-                </svg>
-              </div>
-              <div className="stat-content">
-                <div className="stat-big-number">+10</div>
-                <div className="stat-big-label">Clientes Activos</div>
-              </div>
-            </div>
-            <div className="stat-big">
-              <div className="stat-icon">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <circle cx="12" cy="12" r="10" strokeWidth="2"/>
-                  <polyline points="12 6 12 12 16 14" strokeWidth="2"/>
-                </svg>
-              </div>
-              <div className="stat-content">
-                <div className="stat-big-number">24/7</div>
-                <div className="stat-big-label">Soporte Técnico</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Contenido principal */}
       <div className="about-main section-container">
         {/* Presentación con imagen */}

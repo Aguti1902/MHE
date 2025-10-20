@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
 import Benefits from './components/Benefits'
-import CaseStudies from './components/CaseStudies'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
@@ -48,7 +47,6 @@ function App() {
             <About />
             <Services />
             <Benefits />
-            <CaseStudies />
             <Contact />
           </main>
         )

@@ -47,7 +47,6 @@ function Footer() {
           <ul>
             <li><a onClick={() => scrollToSection('about')}>Quiénes Somos</a></li>
             <li><a onClick={() => scrollToSection('benefits')}>Por Qué Elegirnos</a></li>
-            <li><a onClick={() => scrollToSection('cases')}>Casos de Éxito</a></li>
             <li><a onClick={() => scrollToSection('contact')}>Contacto</a></li>
           </ul>
         </div>

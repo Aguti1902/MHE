@@ -43,7 +43,6 @@ function Header() {
           <a onClick={() => scrollToSection('about')}>Quiénes Somos</a>
           <a onClick={() => scrollToSection('services')}>Servicios</a>
           <a onClick={() => scrollToSection('benefits')}>Beneficios</a>
-          <a onClick={() => scrollToSection('cases')}>Casos de Éxito</a>
           <a onClick={() => scrollToSection('contact')} className="nav-cta">Contacto</a>
         </nav>
       </div>
