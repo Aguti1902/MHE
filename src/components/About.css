@@ -16,6 +16,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  margin-bottom: 120px;
 }
 
 .about-hero-overlay {
@@ -119,8 +120,7 @@
 
 /* ===== MAIN CONTENT ===== */
 .about-main {
-  margin-top: 120px;
-  padding: 80px 20px 120px;
+  padding: 0 20px 120px;
 }
 
 /* ===== PRESENTATION ===== */
@@ -413,6 +413,7 @@
 @media (max-width: 768px) {
   .about-hero {
     height: 300px;
+    margin-bottom: 80px;
   }
   
   .about-hero-title {
@@ -443,8 +444,7 @@
   }
   
   .about-main {
-    margin-top: 80px;
-    padding: 60px 20px 100px;
+    padding: 0 20px 100px;
   }
   
   .about-section-title {
@@ -486,6 +486,7 @@
 @media (max-width: 480px) {
   .about-hero {
     height: 250px;
+    margin-bottom: 60px;
   }
   
   .about-hero-title {
@@ -497,8 +498,7 @@
   }
   
   .about-main {
-    margin-top: 60px;
-    padding: 60px 15px 80px;
+    padding: 0 15px 80px;
   }
   
   .stat-big {
