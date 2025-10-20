@@ -41,7 +41,7 @@ function Hero() {
                 <polyline points="9 22 9 12 15 12 15 22" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
-            <h3>+500</h3>
+            <h3>+5</h3>
             <p>Proyectos Completados</p>
           </div>
           <div className="visual-card card-3">

@@ -27,7 +27,7 @@ function About() {
                 </svg>
               </div>
               <div className="stat-content">
-                <div className="stat-big-number">+500</div>
+                <div className="stat-big-number">+5</div>
                 <div className="stat-big-label">Proyectos Implementados</div>
               </div>
             </div>
@@ -41,7 +41,7 @@ function About() {
                 </svg>
               </div>
               <div className="stat-content">
-                <div className="stat-big-number">+200</div>
+                <div className="stat-big-number">+10</div>
                 <div className="stat-big-label">Clientes Activos</div>
               </div>
             </div>
