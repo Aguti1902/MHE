@@ -65,8 +65,8 @@ function Benefits() {
         </svg>
       ),
       title: 'Experiencia Internacional Comprobada',
-      description: 'Más de 20 años implementando proyectos exitosos en toda Europa, con un profundo conocimiento del sector industrial y sus desafíos.',
-      stat: '+20 años'
+      description: 'Amplia trayectoria implementando proyectos exitosos en toda Europa, con un profundo conocimiento del sector industrial y sus desafíos.',
+      stat: 'Europa'
     }
   ]
 

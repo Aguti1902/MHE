@@ -21,7 +21,7 @@ function Footer() {
           </div>
           <p className="footer-description">
             Soluciones integrales de manutención y manejo de materiales 
-            para la industria europea. Más de 20 años de experiencia.
+            para la industria europea.
           </p>
           <div className="footer-certifications">
             <span className="cert-badge">ISO 9001</span>

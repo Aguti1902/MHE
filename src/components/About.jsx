@@ -22,18 +22,6 @@ function About() {
             <div className="stat-big">
               <div className="stat-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path d="M12 2v20M2 12h20" strokeWidth="2" strokeLinecap="round"/>
-                  <circle cx="12" cy="12" r="10" strokeWidth="2"/>
-                </svg>
-              </div>
-              <div className="stat-content">
-                <div className="stat-big-number">20+</div>
-                <div className="stat-big-label">Años en el Sector</div>
-              </div>
-            </div>
-            <div className="stat-big">
-              <div className="stat-icon">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" strokeWidth="2"/>
                   <polyline points="9 22 9 12 15 12 15 22" strokeWidth="2"/>
                 </svg>
@@ -87,10 +75,10 @@ function About() {
             </div>
             <p className="about-description">
               Nuestro objetivo es mejorar la eficiencia y reducir tiempos para nuestros clientes, 
-              ofreciendo soluciones innovadoras y seguras. Con más de 20 años de experiencia en 
-              el sector industrial europeo, trabajamos con empresas líderes proporcionando 
-              tecnología de vanguardia y soluciones personalizadas que aumentan la productividad 
-              y rentabilidad en sus procesos de manipulación de materiales.
+              ofreciendo soluciones innovadoras y seguras. Trabajamos con empresas líderes del 
+              sector industrial europeo, proporcionando tecnología de vanguardia y soluciones 
+              personalizadas que aumentan la productividad y rentabilidad en sus procesos de 
+              manipulación de materiales.
             </p>
           </div>
           <div className="about-image-modern">
@@ -169,7 +157,7 @@ function About() {
                 </svg>
               </div>
               <h5>Experiencia</h5>
-              <p>Respaldada por más de 20 años en el sector industrial europeo</p>
+              <p>Amplia trayectoria en el sector industrial europeo</p>
             </div>
             <div className="value-modern-card">
               <div className="value-number">04</div>
