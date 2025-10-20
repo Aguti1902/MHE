@@ -60,7 +60,15 @@
 }
 
 .hero-description {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.hero-subdescription {
+  font-size: 1.05rem;
   color: var(--secondary-gray);
   margin-bottom: 35px;
   line-height: 1.8;

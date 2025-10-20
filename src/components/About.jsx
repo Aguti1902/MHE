@@ -22,6 +22,18 @@ function About() {
             <div className="stat-big">
               <div className="stat-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="10" strokeWidth="2"/>
+                  <polyline points="12 6 12 12 16 14" strokeWidth="2"/>
+                </svg>
+              </div>
+              <div className="stat-content">
+                <div className="stat-big-number">+10</div>
+                <div className="stat-big-label">Años de Experiencia</div>
+              </div>
+            </div>
+            <div className="stat-big">
+              <div className="stat-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" strokeWidth="2"/>
                   <polyline points="9 22 9 12 15 12 15 22" strokeWidth="2"/>
                 </svg>

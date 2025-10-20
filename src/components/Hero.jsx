@@ -27,7 +27,14 @@ function Hero() {
           <p className="hero-description fade-in">
             Manipulación de Productos Industriales y Mejora de Procesos
           </p>
+          <p className="hero-subdescription fade-in">
+            Optimizamos sus procesos industriales con soluciones innovadoras y personalizadas. 
+            Experiencia comprobada en el sector europeo.
+          </p>
           <div className="hero-buttons fade-in">
+            <button className="button-primary" onClick={scrollToContact}>
+              Solicitar Consultoría
+            </button>
             <button className="button-secondary" onClick={scrollToServices}>
               Ver Servicios
             </button>
@@ -43,6 +50,16 @@ function Hero() {
             </div>
             <h3>+5</h3>
             <p>Proyectos Completados</p>
+          </div>
+          <div className="visual-card card-2">
+            <div className="icon-box">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <polyline points="12 6 12 12 16 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3>+10</h3>
+            <p>Años de Experiencia</p>
           </div>
           <div className="visual-card card-3">
             <div className="icon-box">
