@@ -490,18 +490,83 @@
     font-size: 1.8rem;
   }
   
+  .about-hero-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .about-main {
+    padding: 60px 15px 80px;
+  }
+  
   .stat-big {
     flex-direction: column;
     text-align: center;
     gap: 15px;
+    padding: 25px 15px;
   }
   
   .stat-big-number {
     font-size: 2rem;
   }
   
+  .stat-big-label {
+    font-size: 0.9rem;
+  }
+  
+  .about-section-title {
+    font-size: 1.5rem;
+  }
+  
+  .about-highlight-box {
+    padding: 20px;
+  }
+  
+  .about-highlight-text {
+    font-size: 0.95rem;
+  }
+  
+  .about-description {
+    font-size: 0.9rem;
+  }
+  
+  .about-image-modern {
+    min-height: 250px;
+  }
+  
   .image-badge {
     padding: 12px 20px;
     font-size: 0.9rem;
+  }
+  
+  .mission-card {
+    padding: 25px;
+  }
+  
+  .mission-card h4 {
+    font-size: 1.15rem;
+  }
+  
+  .mission-card p {
+    font-size: 0.9rem;
+  }
+  
+  .values-title {
+    font-size: 1.75rem;
+  }
+  
+  .value-modern-card {
+    padding: 30px 20px;
+  }
+  
+  .value-number {
+    font-size: 2rem;
+  }
+  
+  .value-modern-card h5 {
+    font-size: 1.05rem;
+  }
+  
+  .value-modern-card p {
+    font-size: 0.875rem;
   }
 }

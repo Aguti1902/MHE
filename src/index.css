@@ -116,7 +116,25 @@ img {
 }
 
 /* Media queries */
+@media (max-width: 968px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
   h1 {
     font-size: 2rem;
   }
@@ -127,6 +145,42 @@ img {
   
   h3 {
     font-size: 1.25rem;
+  }
+  
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.15rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+}
+
+/* Mejoras de accesibilidad táctil para móvil */
+@media (hover: none) and (pointer: coarse) {
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
   }
 }
 

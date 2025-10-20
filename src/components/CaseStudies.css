@@ -133,9 +133,41 @@
   font-weight: 500;
 }
 
+@media (max-width: 968px) {
+  .cases-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .case-company {
+    font-size: 1.4rem;
+  }
+  
+  .case-section h4 {
+    font-size: 1rem;
+  }
+  
+  .case-section p {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .case-studies {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
   .cases-container {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   
   .case-card {
@@ -150,6 +182,58 @@
   
   .case-company {
     font-size: 1.3rem;
+  }
+  
+  .cases-footer {
+    padding: 30px 20px;
+    margin-top: 40px;
+  }
+  
+  .cases-footer p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-studies {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .case-card {
+    padding: 20px;
+  }
+  
+  .case-sector {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+  
+  .case-location {
+    font-size: 0.8rem;
+  }
+  
+  .case-company {
+    font-size: 1.15rem;
+  }
+  
+  .case-section h4 {
+    font-size: 0.95rem;
+  }
+  
+  .case-section p {
+    font-size: 0.875rem;
+  }
+  
+  .cases-footer {
+    padding: 25px 15px;
+  }
+  
+  .cases-footer p {
+    font-size: 1rem;
   }
 }
 

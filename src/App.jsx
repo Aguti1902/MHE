@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import LegalNotice from './components/LegalNotice'
 import CookiesPolicy from './components/CookiesPolicy'
+import CookieBanner from './components/CookieBanner'
 import './App.css'
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       <Header />
       {renderPage()}
       <Footer />
+      <CookieBanner />
     </div>
   )
 }
