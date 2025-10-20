@@ -32,9 +32,6 @@ function Hero() {
             Experiencia comprobada en el sector europeo.
           </p>
           <div className="hero-buttons fade-in">
-            <button className="button-primary" onClick={scrollToContact}>
-              Solicitar Consultoría
-            </button>
             <button className="button-secondary" onClick={scrollToServices}>
               Ver Servicios
             </button>
